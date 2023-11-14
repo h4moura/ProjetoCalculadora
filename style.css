@@ -1,0 +1,63 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body{
+    background-image: linear-gradient(45deg, black, red);
+    height: 100vh;
+}
+
+.nome{
+    color: white;
+    text-transform: uppercase;
+    text-align: center;
+    padding: 15px;
+}
+
+.calculadora > h1{
+    color: white;
+    padding: 3px;
+}
+
+.calculadora{
+    position: absolute;
+    background-color: rgba(0, 0, 0, 0.562);
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 15px;
+    padding: 15px;
+}
+
+#resultado{
+
+    /* Estou tentado resolver para que não saia da div */
+    
+    margin-left: 5px;
+    padding: 5px;
+    text-align: right;
+    color: black;
+    background-color: white;
+    width: 91%;
+    height: 30px;
+    font-size: 25px;
+}
+
+
+button{
+    margin: 3px;
+    width: 50px;
+    height: 50px;
+    font-size: 25px;
+    cursor: pointer;
+    background-color: white;
+    border-radius: 3px;
+    border: none;
+}
+
+button:hover{
+    background-color: black;
+    color: white;
+}
